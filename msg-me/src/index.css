@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*Nav styles*/
+.navbar-bg-container {
+  padding: 1rem;
+}
+
+
+.nav-item {
+  padding: 3.7px;
+}
+
