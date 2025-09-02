@@ -1,4 +1,4 @@
-import Logo from '../assets/Logo.jpg'
+import Logo from '../assets/Logo.png'
 
 export default function Navbar() {
     //function

@@ -1,3 +1,8 @@
+//
+//import { LuThumbsUp } from 'lucide-react';
+
+import Cards from '../components/Cards'
+
 export default function Home() {
   //Functions are breaking when being used in return attribute  
     function Date() {
@@ -19,9 +24,12 @@ export default function Home() {
             <p className="dev-note "></p>
         </div>
         <div className="home-card-container p-10">
-            <div className="recent-posts-container bg-gray-200">
+            <div className="recent-posts-container">
                 <h3 className="font-semibold">Recent Posts</h3>
-                <div className="recent-post-div"></div>
+                <div className="recent-post-div flex bg-green-100 p-8 rounded-lg gap-2 shadow-lg">
+                    <Cards />
+                    <Cards />
+                </div>
             </div>
             <hr />
             <div className="featured-post-container pt-5">
